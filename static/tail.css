@@ -1,0 +1,8 @@
+@tailwind base;
+
+@tailwind components;
+.active {
+    @apply bg-gray-300 text-gray-800;
+    border-bottom: 2px solid blue;
+  }
+@tailwind utilities;

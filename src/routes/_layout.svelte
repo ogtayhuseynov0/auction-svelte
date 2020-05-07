@@ -11,7 +11,7 @@
 <Nav {segment} />
 
 <main>
-  <div class="container ui">
+  <div class="px-6 sm:px-18 md:px-24 mt-2">
     <slot />
   </div>
 </main>
