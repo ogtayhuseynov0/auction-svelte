@@ -1,7 +1,6 @@
 <script>
   import NavLink from "./NavLink";
   export let segment;
-
   let links = [
     {
       name: "Home",
@@ -27,7 +26,8 @@
 </style>
 
 <header
-  class="flex justify-between items-center sm:px-18 px-6 text-gray-800 md:px-24">
+  class="flex justify-between items-center sm:px-18 px-6 text-gray-800 md:px-24
+  border-b-2 bg-white">
   <div>
     <h1 class="text-3xl">Auction</h1>
   </div>
