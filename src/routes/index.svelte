@@ -1,5 +1,7 @@
 <script>
   import AuctionCard from "../components/AuctionCard";
+  import { fade } from "svelte/transition";
+
   let list = [1, 2, 3];
 </script>
 
